@@ -1,0 +1,2 @@
+.header{width:100%;background:red;max-width:1170px;margin:0 auto}.header div{border:1px solid blue}.top-bar{display:grid;grid-template-columns:1fr 1fr}.right-side{justify-content:end}body{margin:0;padding:0;font-family:'Ubuntu', sans-serif}#koszyk{height:50px;width:50px;background:yellow}#itemy{background:blue;color:red}
+/*# sourceMappingURL=style.css.map */

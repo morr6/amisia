@@ -1,0 +1,43 @@
+.producers-logos {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  cursor: pointer;
+
+  & > .owl-carousel {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) !important;
+  }
+
+  & > .owl-nav {
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+    border: none;
+    bottom: 0;
+    z-index: -1;
+
+    &  > button {
+      background: $white !important;
+      outline: none;
+      margin: 0 !important;
+      border-radius: 0 !important;
+      border: none !important;
+      color: #042936 !important;
+      font-size: 50px !important;
+    }
+
+    & > .owl-next{
+      margin-left: 100% !important;
+    }
+  }
+}
+
+.producers-logo-image {
+  height: 75px;
+  width: 125px !important;
+}

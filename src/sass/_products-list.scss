@@ -1,0 +1,133 @@
+@import '_assets';
+
+.products-list {
+  max-width: 1170px;
+  width: 100%;
+  position: relative;
+  background: $light-blue;
+  margin: 30px auto;
+  cursor: pointer;
+  
+  &:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 200vw;
+    left: -33%;
+    top: 0;   
+    background: $light-blue;
+    z-index: -1;
+  }
+}
+
+.product-owl-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px 0;
+  max-width: 1170px;
+  position: relative;
+  z-index: 1;
+
+  & > h2 {
+    width: 125px;
+    margin: 0 auto;
+    color: #90c145;
+    border-bottom: 1px solid #90c145;
+    padding-bottom: 5px;
+
+    @media screen and ($m) {
+      margin: 20px auto;
+    }
+  }
+
+  & > .owl-carousel > .owl-nav {
+    position: absolute;
+    width: 104%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 !important;
+    border: none;
+    bottom: 50%;
+    left: -2%;
+    z-index: -2;
+
+    &  > button {
+      background: $light-blue !important;
+      outline: none;
+      margin: 0 !important;
+      border-radius: 0 !important;
+      border: none !important;
+      color: #042936 !important;
+      font-size: 50px !important;
+    }
+  }
+}
+
+.product-wrapper {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr 1fr 1fr;
+  justify-content: center;
+  width: 260px;
+  margin: 30px 0;
+  padding: 10px;
+  background: $white;
+  
+
+  @media screen and ($l) {
+    margin: 0 auto;
+  }
+
+  &:hover > button {
+    opacity: 1
+  }
+}
+
+.product-image {
+  height: 100%;
+  width: 90%;
+}
+
+.product-name {
+  padding: 10px;
+  width: 100%;
+  text-align: center
+}
+
+.product-price {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #e62732;
+}
+
+.bestseller > h2 {
+  width: 135px;
+  margin: 0 auto;
+  color: $base-blue;
+  border-bottom: 1px solid $base-blue;
+  padding-bottom: 5px;
+
+  @media screen and ($l) {
+    margin: 20 auto;
+  }
+}
+
+.add-to-basket-button {
+  margin: 0 auto;
+  width: 50px;
+  opacity: 0;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  color: $base-blue;
+  transition: .5s;
+
+  &:active {
+    transform: scale(0.8)
+  }
+}

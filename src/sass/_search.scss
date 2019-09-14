@@ -1,0 +1,45 @@
+@import '_assets';
+
+.search-results-wrapper {
+  box-sizing: border-box;
+  background: $white;
+  position: relative;
+  z-index: 9999;
+  max-height: 500px;
+  width: 150%;
+  overflow-y: auto;
+  cursor: pointer;
+
+  @media screen and ($m) {
+    width: 350px;
+    left: -150px;
+  }
+}
+
+.search-product-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $base-blue;
+  padding: 5px 10px;  
+  transition: .5s;
+
+  &:hover {
+    background: $light-blue;
+  }
+}
+
+.search-product-image {
+  height: 70px;
+  width: 70px;
+}
+
+.search-product-name {
+  width: 60%;
+  font-size: 14px;  
+  text-align: center;
+  
+  @media screen and ($xs) {
+    font-size: 12px;
+  }
+}

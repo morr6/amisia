@@ -1,0 +1,22 @@
+@import '__header';
+@import '_header-bottom';
+@import '_menu';
+@import '_kids-category';
+@import 'producers-logos';
+@import 'products-list';
+@import '_footer';
+@import '_newsletter';
+@import '_advantages';
+@import '_modal';
+@import '_search.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.grid-container {  
+  overflow: hidden;
+}
+

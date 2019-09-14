@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Amisia </title>
+  <meta charset="utf-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="../OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css"
+  rel='stylesheet' type='text/css'>  
+  <link href="../OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+  rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="../fontawesome-free-5.10.2-web/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <main class="grid-container">
+    <section class='modal'>
+      <div class="modal-content">
+        <button class="closeModal" onClick="closeModal()"> X </button>
+          <span> Produkt pomyślnie dodany do koszyka! </span>
+          <i class="modal-icon far fa-check-circle"></i>
+      </div>
+    </section>
+    <header class="header">
+
+      <section class="mobile-top-bar">
+        <div class="left-mobile-top-bar-icons">
+          <i class=" top-bar-icons fas fa-envelope"></i>
+          <i class="top-bar-icons fas fa-phone-alt"></i>
+        </div>
+        <div class="right-mobile-top-bar-icons">
+          <i class=" top-bar-icons fas fa-dollar-sign"></i>
+          <i class=" top-bar-icons fas fa-user"></i>
+        </div>
+      </section>
+      <section class="top-bar">
+        <div class="left-side">
+          <ul class="top-bar-ul">
+            <li>
+              <span class='top-bar-element'>
+                <i class=" top-bar-icons fas fa-envelope"></i> zabawki@amisia.pl
+              </span>
+            </li>
+            <li>
+              <span class='top-bar-element'>
+                <i class="top-bar-icons fas fa-phone-alt"></i> +48 58 304 79 77
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="right-side">
+          <ul class="top-bar-ul">
+            <li>
+              <span class='top-bar-element'>
+                <i class=" top-bar-icons fas fa-dollar-sign"></i> Waluta: Pln
+              </span>
+            </li>
+            <li>
+              <span class='top-bar-element'>
+                <i class=" top-bar-icons fas fa-user"></i> Strefa klienta
+              </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="header-middle">
+          <img class='logo-wrapper' src='assets/logo.png' />
+          <div>
+            <div class='search-input-wrapper'>
+              <input class='search-input' type='text' placeholder="wyszukaj"/>
+              <div class='search-results-wrapper'>
+              </div>
+            </div>
+            <div class='basket-wrapper'>
+              <span class="basket-value">0,00 zł</span>            
+              <i class="basket-icon fas fa-shopping-basket"></i>
+              <div class="items-amount"> 0 </div>
+              <div class='basket-content'>
+              </div>
+            </div>
+          <div>
+      </section>
+
+      <section class="menu">
+          <span class='menu-item'> Wszystkie kategorie </span>
+          <span class='menu-item'> Promocje </span>
+          <span class='menu-item'> Rejestracja </span>
+          <span class='menu-item'> O nas </span>
+          <span class='menu-item'> Dostawa </span>
+          <span class='menu-item'> Regulamin </span>
+          <span class='menu-item'> Kontakt </span>
+      </section>
+
+      <section class="header-bottom">
+        <div class="categories-list">
+          <ul>
+            <li> <span class='category'> Zabawki </span> </li>  
+            <li> <span class='category'> Moda dziecięca </span> </li> 
+            <li> <span class='category'> Obuwie dziecięce </span> </li> 
+            <li> <span class='category'> Higiena i kosmetyki </span> </li>  
+            <li> <span class='category'> Wózki </span> </li>  
+            <li> <span class='category'> Tekstylia domowe  </span> </li>  
+            <li> <span class='category'> Akcesoria </span> </li>  
+          </ul>
+        </div>
+        <div class="header-owl-carousel owl-one owl-carousel">
+          <img class="carousel-image" src="https://www.w3schools.com/w3css/img_lights.jpg" />
+          <img class="carousel-image" src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg" />
+          <img class="carousel-image" src="https://media.gettyimages.com/photos/spring-field-picture-id539016480?s=612x612" />
+          <img class="carousel-image" src="https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
+      </section>
+
+    </header>
+
+    <section class='kids-category'>
+      <div class='kids-category-wrapper'>
+        <img class='kids-image' src="assets/boy.png" /> 
+        <div class="kids-category-title"> CHŁOPCY </div>
+        <button class="kids-category-button"> ZOBACZ </button>
+      </div>
+      <div class='kids-category-wrapper'>
+        <img class='kids-image' src="assets/girl.png" />
+        <div class='kids-category-title'> DZIEWCZYNKI </div>
+        <button class="kids-category-button"> ZOBACZ </button>
+      </div>
+    </section>
+  
+    <section class="producers-logos owl-two owl-carousel ">
+      <img class="producers-logo-image" src="assets/logos/chicco.png" />
+      <img class="producers-logo-image" src="assets/logos/crayola.png" />
+      <img class="producers-logo-image" src="assets/logos/discovery.png" />
+      <img class="producers-logo-image" src="assets/logos/fisherprice.png" />
+      <img class="producers-logo-image" src="assets/logos/klein.png" />
+      <img class="producers-logo-image" src="assets/logos/korbo.png" />
+      <img class="producers-logo-image" src="assets/logos/lego.png" />
+      <img class="producers-logo-image" src="assets/logos/playdoh.png" />
+      <img class="producers-logo-image" src="assets/logos/schleich.png" />
+      <img class="producers-logo-image" src="assets/logos/simba.png" />
+      <img class="producers-logo-image" src="assets/logos/trefl.png" />
+    </section>
+
+      <section class="products-list">
+        <div class="recommended product-owl-wrapper">
+          <h2> POLECAMY </h2>
+          <div class="recommended-owl owl-carousel">
+          </div>
+        </div>
+        <div class="bestseller product-owl-wrapper">
+          <h2> BESTSELLER </h2>
+          <div class="bestseller-owl owl-carousel">
+          </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="advantage-container">
+        <i class="red-icon advantage-icon fa fa-shield-alt "></i>
+        <span class="advantage-title"> BEZPIECZNE ZAKUPY </span>
+        <p class="advantage-paragraph"> certyfikat SSL </p>
+      </div>
+      <div class="advantage-container">
+        <i class="orange-icon advantage-icon fa fa-calendar-alt"></i>
+        <span class="advantage-title"> 30 DNI NA WYMIANĘ </span>
+        <p class="advantage-paragraph"> i zwrot </p>
+      </div>
+      <div class="advantage-container">
+        <i class="yellow-icon advantage-icon fa fa-truck"></i>
+        <span class="advantage-title"> DARMOWA DOSTAWA </span>
+        <p class="advantage-paragraph"> od 200zł </p>
+      </div>
+      <div class="advantage-container">
+        <i class="green-icon advantage-icon fa fa-award "></i>
+        <span class="advantage-title"> GWARANCJA </span>
+        <p class="advantage-paragraph"> satysfakcji </p>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <span class="newsletter-title"> ZAPISZ SIE DO NEWSLETTERA </span>
+      <p> Bądź na bieżąco z naszymi promocjami i nowościami </p>
+      <form>
+        <input class='newsletter-input' type='text' />
+        <input class='newsletter-submit' type='submit' value='ZAPISZ' />
+      </form>
+    </section>
+
+    <footer>
+      <div class='footer-container'>
+        <div class="footer-section">
+          <div class='footer-section-title'> Informacje </div>
+          <ul>
+            <li> <span> Twoje zamówienia </span> </li>
+            <li> <span> Ustawienia konta </span> </li>
+            <li> <span> Przechowalnia </span>  </li>
+            <li> <span> Wysyłka i płatności </span>  </li>
+            <li> <span> Zwroty i reklamacje </span> </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <div class='footer-section-title'> Obsługa klienta </div>
+          <ul>
+            <li> <span> Moje konto </span> </li>
+            <li> <span> Zwrot, wymiana, reklamacja </span> </li>
+            <li> <span> Formy płatności  </span>  </li>
+            <li> <span> Koszty i formy dostawy </span>  </li>
+            <li> <span> Czas realizacji zamówienia </span> </li>
+            </ul>
+        </div>
+        <div class="footer-section">
+          <div class='footer-section-title'> Kontakt z nami </div>  
+          <ul>
+            <li> <span> ul. Nadmorska 3, </span> </li>
+            <li> <span> 02-234, Warszawa </span> </li>
+            <li> &nbsp; </li>
+            <li> <span> zabawki@amisia.pl </span>  </li>
+            <li> <span> +48 522 123 123 </span> </li>
+            </ul>
+        </div>
+        <div class="footer-section">
+          <img class='footer-logo' src='assets/logo.png' />
+        </div>
+      </div>
+      <div class=''>
+        
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src='../OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js'></script>
+  <script src='../OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.js'></script>
+  <script src='js/modalHandler.js'></script>
+  <script src='js/api.js'></script> 
+  <script src='js/owlCarouselHandler.js'></script>
+  <script src='js/localStorage.js'></script>
+  <script src='js/shopingHandler.js'></script>
+  <script src='js/searchHandler.js'></script>
+  
+</body>
+</html>

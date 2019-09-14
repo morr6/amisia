@@ -1,0 +1,71 @@
+@import '_breakpoints';
+
+.kids-category {
+  display: grid;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  max-width: 1170px;
+  grid-gap: 20px;
+  width: 100%;
+  margin: 30px auto;
+  justify-items: center;
+
+
+  @media screen and ($m) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  
+  }
+}
+
+.kids-category-wrapper {
+  height: 333px;
+  width: 100%;
+  position: relative;
+
+  
+  @media screen and ($m) {
+    width: 80%;
+  }
+   
+  @media screen and ($xs) {
+    width: 100%;
+  }
+}
+
+.kids-image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.kids-category-title {
+  display: block;
+  margin: 25% 0 40px 45px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: .15em;
+
+  
+  @media screen and ($xl) {
+    font-size: 20px;
+  }
+}
+
+.kids-category-button {
+  width: 115px;
+  height: 40px;
+  border-radius: 50px;
+  background: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 45px;
+  transition: .5s;
+
+  &:hover {
+    transform: scale(1.05)
+  }
+}

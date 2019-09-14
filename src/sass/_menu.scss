@@ -1,0 +1,43 @@
+@import '_assets';
+
+.menu {
+  display: grid;
+  grid-template-columns: 2fr repeat(6, 1fr);
+  position: relative;
+  background: $base-blue;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 200vw;
+    z-index: -1;
+    height: 100%;
+    background-color: $base-blue;
+  }
+
+  @media screen and ($m) {
+    display: none;
+  }
+}
+
+.menu-item {
+  height: 100%;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+
+  &:first-child {
+    border-right: 1px solid $white;
+    border-left: 1px solid $white;
+  };
+
+  &:hover {
+    cursor: pointer;
+    color: $base-blue;
+    background: $white;
+  };
+}
