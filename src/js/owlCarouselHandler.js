@@ -4,6 +4,7 @@ $(document).ready(function() {
     nav:true,
     dots: true,
     autoplay:true,
+    lazyLoad:true,
     autoplayTimeout:3000,
     items: 1        
   })
@@ -12,6 +13,7 @@ $(document).ready(function() {
     loop:true,
     nav:true,
     dots: false,
+    lazyLoad:true,
     autoplay:true,
     autoplayTimeout:5000,
     responsive:{
@@ -25,6 +27,7 @@ $(document).ready(function() {
     loop:true,
     nav:true,
     dots: false,
+    lazyLoad:true,
     responsive:{
       1200:{
         items: 4
@@ -45,6 +48,7 @@ $(document).ready(function() {
     loop:true,
     nav:true,
     dots: false,
+    lazyLoad:true,
     responsive:{
       1200:{
         items: 4
