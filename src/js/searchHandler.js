@@ -39,4 +39,13 @@ $(document).ready(function() {
 
 // const searchForProduct = () => {
 //   $.ajax({
-//     url : "./products/prod
+//     url : "./products/productsList.json",
+//     dataType : "json"
+//   })
+//   .done((res) => { 
+//     tag = [...res.products.map(product => 
+//       product.name)].map(productName => {
+//         console.log(productName.split(" "))
+//       })
+//   })
+// }
