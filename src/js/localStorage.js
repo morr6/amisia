@@ -7,7 +7,7 @@ const getProductsFromStorage = () => {
   }    
 }
 
-const initStorage = () => {
+const initLocalStorage = () => {
   const products = getProductsFromStorage()
   const initArray = []
 

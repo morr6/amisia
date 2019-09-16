@@ -23,29 +23,14 @@ $(document).ready(function() {
     })
   })
   
-  $('.search-input').focusout(function() {
-    $('.search-results-wrapper').css({"display":'none'})
+  $(document).click(function(e) {
+    console.log(e.target)
+    if ($(e.target).is('.search-product-wrapper, basket-icon')) {
+      return
+    }
+    else {
+      $('.search-product-wrapper').css({'display':'none'})
+    }
   })
-  $('.search-input').focusin(function() {
-    $('.search-results-wrapper').css({"display":'block'})
-  })
+
 })
-
-
-
-
-
-
-
-// const searchForProduct = () => {
-//   $.ajax({
-//     url : "./products/productsList.json",
-//     dataType : "json"
-//   })
-//   .done((res) => { 
-//     tag = [...res.products.map(product => 
-//       product.name)].map(productName => {
-//         console.log(productName.split(" "))
-//       })
-//   })
-// }

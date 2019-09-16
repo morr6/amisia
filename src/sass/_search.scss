@@ -4,11 +4,12 @@
   box-sizing: border-box;
   background: $white;
   position: relative;
-  z-index: 9999;
+  z-index: 999;
   max-height: 500px;
   width: 150%;
   overflow-y: auto;
   cursor: pointer;
+
 
   @media screen and ($m) {
     width: 350px;

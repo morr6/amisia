@@ -36,7 +36,3 @@ const setBasketContent = () => {
     `)
   })
 }
-
-$(document).ready(function() {
-  setBasketContent()  
-})

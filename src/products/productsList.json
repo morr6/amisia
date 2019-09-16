@@ -38,7 +38,7 @@
     {"id":36,"name":"Little Tikes Pojazd budowlany Ładowarka Spychacz 2w1","price": "190.00", "recommended": false, "bestseller": false, "imagePath": "./assets/productsImages/36.jpg"},
     {"id":37,"name":"Little Tikes Zdalnie Sterowany Śmigłowiec Helikopter","price": "155.00", "recommended": false, "bestseller": false, "imagePath": "./assets/productsImages/37.jpg"},
     {"id":38,"name":"Little Tikes Zestaw Samochodów Zdalnie Sterowanych Bumper Cars","price": "73.00", "recommended": false, "bestseller": false, "imagePath": "./assets/productsImages/38.jpg"},
-    {"id":39,"name":"Klein Bezprzewodowa wkrętarka Ixolino Bosch","price": "5.005", "recommended": true, "bestseller": false, "imagePath": "./assets/productsImages/39.jpg"},
+    {"id":39,"name":"Klein Bezprzewodowa wkrętarka Ixolino Bosch","price": "500.00", "recommended": true, "bestseller": false, "imagePath": "./assets/productsImages/39.jpg"},
     {"id":40,"name":"Bosch zestaw robotnika budowlanego Klein","price": "99.00", "recommended": true, "bestseller": false, "imagePath": "./assets/productsImages/40.jpg"},
     {"id":41,"name":"Klein Zestaw Naczyń i Akcesoriów Kuchennych WMF","price": "80.00", "recommended": false, "bestseller": true, "imagePath": "./assets/productsImages/41.jpg"},
     {"id":42,"name":"Ecoiffier - Zestaw szybkich przekąsek i akcesoriów","price": "42.00", "recommended": false, "bestseller": false, "imagePath": "./assets/productsImages/42.jpg"},

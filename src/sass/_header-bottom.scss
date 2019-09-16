@@ -58,16 +58,21 @@
   overflow: hidden;
 
   & > .owl-nav {
-    position: absolute;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 !important;
     border: none;
-    top: 175px;
     z-index: 999;
 
+    & > .owl-next {
+      right: 0;
+    }
+
     & > button {
+      position: absolute;
+      top: -375px;
       height: 90px;
       width: 35px;
       outline: none;

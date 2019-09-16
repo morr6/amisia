@@ -1,4 +1,4 @@
-$(document).ready(function() {
+const initCarousels = () => {
   $('.owl-one').owlCarousel({
     loop:true,
     nav:true,
@@ -64,4 +64,4 @@ $(document).ready(function() {
       }
     } 
   })
-})
+}
